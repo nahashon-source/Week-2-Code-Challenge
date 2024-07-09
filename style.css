@@ -1,0 +1,58 @@
+/* Styling the wrapper div */
+.wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+/* styling buttons */
+.item, .add-button, .clear-button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* styling the item field */
+.item {
+    border: 1px solid #ccc;
+}
+
+/*styling the add and clear buttons */
+.add-button, .clear-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Hover effect for buttons */
+.add-button:hover, .clear-button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling the shopping list items */
+.shopping-list {
+    list-style: none;
+    padding: 0;
+}
+
+.shopping-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Styling purchased items */
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+

@@ -3,9 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>week 2 code challenge</title>
+    <title>Interactive Shopping List</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <div class="wrapper">
+        <h1>Shopping List</h1>
+        <!-- Input field for adding new items -->
+        <input type="text" class="item" placeholder="Add a new item...">
+        <!-- Button to add the new item -->
+        <button class="add-button">Add</button>
+        <!-- Container for the shopping list items -->
+        <ul class="shopping-list"></ul>
+        <!-- Button to clear the entire list -->
+        <button class="clear-button">Clear List</button>
+    </div>
+    <script src="./index.js"></script>
 </body>
 </html>
