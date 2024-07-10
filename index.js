@@ -28,6 +28,8 @@ function renderList() {
       renderList(); 
     });
 
+    
+
     listItem.querySelector('.delete-button').addEventListener('click', function() {
       shoppingList.splice(index, 1); 
       renderList();
